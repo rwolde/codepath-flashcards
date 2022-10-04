@@ -3,7 +3,7 @@
 ### App Description
 `TODO://` This is an updated version of the Flashcards app which can now take a question and answer from the user and display it on the app!
 
-### App Walk-though
+### Updated App Walk-though
 
 <img src="http://g.recordit.co/CnxUSe2ZrN.gif" width=200><br>
 
