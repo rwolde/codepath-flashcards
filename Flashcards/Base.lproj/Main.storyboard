@@ -46,7 +46,7 @@
                                 </connections>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z7I-9h-Amh">
-                                <rect key="frame" x="169" y="689" width="76" height="73"/>
+                                <rect key="frame" x="169" y="686" width="76" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="+">
@@ -56,6 +56,28 @@
                                     <segue destination="NqJ-J9-CLb" kind="presentation" id="7UV-MH-cTb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gJb-sh-Or8">
+                                <rect key="frame" x="20" y="763" width="60" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Prev">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="didTapOnPrev:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zBJ-0W-qvU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R7u-dM-NAf">
+                                <rect key="frame" x="332" y="765" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Next">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="didTapOnNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rRs-Ju-Scv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -63,6 +85,8 @@
                     <connections>
                         <outlet property="backLabel" destination="0ug-y7-kxp" id="zF8-UJ-i8l"/>
                         <outlet property="frontLabel" destination="yJF-1L-aOQ" id="ii9-q3-m1y"/>
+                        <outlet property="nextButton" destination="R7u-dM-NAf" id="XRS-qm-rL5"/>
+                        <outlet property="prevButton" destination="gJb-sh-Or8" id="fRP-vf-1Ly"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -72,7 +96,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="128" y="71"/>
+            <point key="canvasLocation" x="127.53623188405798" y="70.982142857142847"/>
         </scene>
         <!--Creation View Controller-->
         <scene sceneID="X6B-gi-nsU">

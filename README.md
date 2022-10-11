@@ -1,3 +1,21 @@
+## Lab 3
+
+### App Description
+`TODO://` This is my updated flashcards app that now runs fully and saves your prevous flashcards. You can now shuffle through them and also still be able to add any flashcard that you desire that the app saves. 
+
+### App Walk-though
+
+<img src="http://g.recordit.co/l0Tmq2DDh7.gif" width=200><br>
+
+## Required
+- [x] User can browse through multiple flashcards
+- [x] User can re-open the app and see previously created flashcards
+- [x] Push code to GitHub
+## Optional
+- [ ] User can delete a flashcard
+- [ ] User can edit existing flashcard
+- [ ] User can store multiple choice questions
+
 ## Lab 2
 
 ### App Description
