@@ -5,7 +5,7 @@
 
 ### App Walk-though
 
-<img src="http://g.recordit.co/l0Tmq2DDh7.gif" width=200><br>
+<img src="http://g.recordit.co/UFqIG0ggXw.gif" width=200><br>
 
 ## Required
 - [x] User can browse through multiple flashcards
