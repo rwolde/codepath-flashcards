@@ -3,7 +3,7 @@
 ### App Description
 `TODO://` This is my updated flashcards app that now runs fully and saves your prevous flashcards. You can now shuffle through them and also still be able to add any flashcard that you desire that the app saves. 
 
-### App Walk-though
+### Updated App Walk-though
 
 <img src="http://g.recordit.co/UFqIG0ggXw.gif" width=200><br>
 
