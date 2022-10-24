@@ -101,11 +101,14 @@
 		24881DD628D16F4100971442 /* Flashcards */ = {
 			isa = PBXGroup;
 			children = (
-				24881E0728D1716500971442 /* Misc */,
 				24881DDB28D16F4100971442 /* ViewController.swift */,
 				24881DDD28D16F4100971442 /* Main.storyboard */,
 				244ED98428E7CCC600F2E83E /* CreationViewController.swift */,
+				24881DE028D16F4600971442 /* Assets.xcassets */,
 				24881DE528D16F4600971442 /* Info.plist */,
+				24881DD728D16F4100971442 /* AppDelegate.swift */,
+				24881DD928D16F4100971442 /* SceneDelegate.swift */,
+				24881DE228D16F4600971442 /* LaunchScreen.storyboard */,
 			);
 			path = Flashcards;
 			sourceTree = "<group>";
@@ -125,17 +128,6 @@
 				24881DFA28D16F4600971442 /* FlashcardsUITestsLaunchTests.swift */,
 			);
 			path = FlashcardsUITests;
-			sourceTree = "<group>";
-		};
-		24881E0728D1716500971442 /* Misc */ = {
-			isa = PBXGroup;
-			children = (
-				24881DD728D16F4100971442 /* AppDelegate.swift */,
-				24881DE228D16F4600971442 /* LaunchScreen.storyboard */,
-				24881DE028D16F4600971442 /* Assets.xcassets */,
-				24881DD928D16F4100971442 /* SceneDelegate.swift */,
-			);
-			path = Misc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
