@@ -1,11 +1,11 @@
-## Lab 4
+## Updated Lab 4
 
 ### App Description
  This app has now been updated with a loading screen and logo as well as some touch ups with the layout and some cool animations.
 
-### App Walk-though
+### Updated App Walk-though
 
-<img src="http://g.recordit.co/CC4LU77Bjz.gif" width=200><br>
+<img src="http://g.recordit.co/3ESOgOI9CT.gif" width=200><br>
 
 
 ## Required

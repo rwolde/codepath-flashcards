@@ -59,9 +59,8 @@ class ViewController: UIViewController {
     }
     
     func flipFlashcard(){
-        frontLabel.isHidden = true
         UIView.transition(with: card, duration: 0.3, options: .transitionFlipFromRight, animations: {
-            self.frontLabel.isHidden = true
+            self.frontLabel.isHidden = !self.frontLabel.isHidden
         })
 
     }
@@ -74,9 +73,11 @@ class ViewController: UIViewController {
     
     @IBAction func didTapOnPrev(_ sender: Any) {
         
+        animateCardIn()
         currentIndex = currentIndex - 1
         updateLabels()
         updateNextPrevButtons()
+       
     }
     
     func updateNextPrevButtons(){
